@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite 
+	name="MyTestSuiteName" 
+	tests="4" 
+	failures="1" 
+	errors="3" 
+	time="24" 
+	skipped="1" 
+	timestamp="2017-02-28T12:00:00+01:00" 
+	hostname="my_pc">
+  <testcase name="TestCase1" time="3.2" classname="MyTestSuite">
+	<error type="exception1" message="error message tc 1">error text tc 1</error>
+    <system-out>system-out1</system-out>
+    <system-err>system-err1</system-err>
+  </testcase>
+  <testcase name="TestCase2" time="0.7" classname="MyTestSuite">
+    <skipped type="Token2" message="skipped message tc 2">skipped text tc 2</skipped>
+    <system-out>system-out2</system-out>
+    <system-err>system-err2</system-err>
+  </testcase>
+  <testcase name="TestCase3" time="9.55" classname="MyTestSuite">
+    <!--<error type="exception1" message="error message 1 tc 3">error text 1 tc 3</error>-->
+    <system-out>system-out3</system-out>
+    <system-err>system-err3</system-err>
+  </testcase>
+  <testcase name="TestCase4" time="0.5" classname="MyTestSuite">
+    <failure type="Token4" message="failure message tc 4">failure text tc 4</failure>
+    <system-out>system-out4</system-out>
+    <system-err>system-err4</system-err>
+  </testcase>
+</testsuite>
