@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testsuite
+	name="jUnitTest"
+	tests="23"
+	failures="4"
+	errors="10"
+	time="7"
+	disabled="0"
+	skipped="7"
+	timestamp="2017-08-03T13:35:51"
+	hostname="RXPC013">
+	<testcase
+		name="TestCase_DataIteration_1"
+		time="1"
+		classname="jUnitTest">
+		<system-err><![CDATA[---[Source] jUnitTest\TestCase\TestCase\Recording1 ---
+---[Warn] The following module variables are not bound to a data column:
+NewVariable---
+	[loglvl] Warn
+
+---[Source] jUnitTest\TestCase\TestCase\Recording1 ---
+---[Error] dg---
+	[itemindex] 1
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+	[codeline] 98
+	[loglvl] Error
+
+]]></system-err>
+		<system-out><![CDATA[---[Warn] The following module variables are not bound to a data column:
+NewVariable---
+----------------------------------------------------------------------------------------
+---[Info] Waiting for 500ms.---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+-------------------------------
+---[Info] Waiting for 500ms.---
+	[timeout] 500
+-------------------------------
+---[Error] dg---
+	[itemindex] 1
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+----------------
+---[Info] sdf---
+	[itemindex] 2
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+----------------
+---[Info] gfh---
+	[itemindex] 3
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+----------------
+---[Info] ghjsd---
+	[itemindex] 4
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+------------------
+]]></system-out>
+	</testcase>
+	<testcase
+		name="TestCase_DataIteration_2"
+		time="1"
+		classname="jUnitTest">
+		<system-err><![CDATA[---[Source] jUnitTest\TestCase\TestCase\Recording1 ---
+---[Warn] The following module variables are not bound to a data column:
+NewVariable---
+	[loglvl] Warn
+
+---[Source] jUnitTest\TestCase\TestCase\Recording1 ---
+---[Error] dg---
+	[itemindex] 1
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+	[codeline] 98
+	[loglvl] Error
+
+]]></system-err>
+		<system-out><![CDATA[---[Warn] The following module variables are not bound to a data column:
+NewVariable---
+----------------------------------------------------------------------------------------
+---[Info] Waiting for 500ms.---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+-------------------------------
+---[Info] Waiting for 500ms.---
+	[timeout] 500
+-------------------------------
+---[Error] dg---
+	[itemindex] 1
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+----------------
+---[Info] sdf---
+	[itemindex] 2
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+----------------
+---[Info] gfh---
+	[itemindex] 3
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+----------------
+---[Info] ghjsd---
+	[itemindex] 4
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+------------------
+]]></system-out>
+	</testcase>
+	<testcase
+		name="TestCase_DataIteration_3"
+		time="1"
+		classname="jUnitTest">
+		<system-err><![CDATA[---[Source] jUnitTest\TestCase\TestCase\Recording1 ---
+---[Warn] The following module variables are not bound to a data column:
+NewVariable---
+	[loglvl] Warn
+
+---[Source] jUnitTest\TestCase\TestCase\Recording1 ---
+---[Error] dg---
+	[itemindex] 1
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+	[codeline] 98
+	[loglvl] Error
+
+]]></system-err>
+		<system-out><![CDATA[---[Warn] The following module variables are not bound to a data column:
+NewVariable---
+----------------------------------------------------------------------------------------
+---[Info] Waiting for 500ms.---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+-------------------------------
+---[Info] Waiting for 500ms.---
+	[timeout] 500
+-------------------------------
+---[Error] dg---
+	[itemindex] 1
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+----------------
+---[Info] sdf---
+	[itemindex] 2
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+----------------
+---[Info] gfh---
+	[itemindex] 3
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+----------------
+---[Info] ghjsd---
+	[itemindex] 4
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+------------------
+]]></system-out>
+	</testcase>
+	<testcase
+		name="TestCase1"
+		time="0"
+		classname="jUnitTest">
+		<skipped
+			message="Skipped [Error Behavior: ContinueParentIteration]." />
+	</testcase>
+	<testcase
+		name="TestCase2"
+		time="0"
+		classname="jUnitTest">
+		<error
+			message="The test case has errors."><![CDATA[---[Source] jUnitTest\TestCase2\Recording2 ---
+---[Error] my exception!---
+	[stacktrace]    at jUnitTest.Recording2.Report_Log() in C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording2.UserCode.cs:line 38
+   at jUnitTest.Recording2.Ranorex.Core.Testing.ITestModule.Run() in C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording2.cs:line 84
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Boolean skipIteration)
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording2.UserCode.cs
+	[codeline] 38
+	[loglvl] Error
+
+]]></error>
+		<system-err><![CDATA[---[Source] jUnitTest\TestCase2\Recording2 ---
+---[Error] my exception!---
+	[stacktrace]    at jUnitTest.Recording2.Report_Log() in C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording2.UserCode.cs:line 38
+   at jUnitTest.Recording2.Ranorex.Core.Testing.ITestModule.Run() in C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording2.cs:line 84
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Boolean skipIteration)
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording2.UserCode.cs
+	[codeline] 38
+	[loglvl] Error
+
+]]></system-err>
+		<system-out><![CDATA[---[Info] khl---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording2.cs
+----------------
+---[Error] my exception!---
+	[stacktrace]    at jUnitTest.Recording2.Report_Log() in C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording2.UserCode.cs:line 38
+   at jUnitTest.Recording2.Ranorex.Core.Testing.ITestModule.Run() in C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording2.cs:line 84
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Boolean skipIteration)
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording2.UserCode.cs
+---------------------------
+]]></system-out>
+	</testcase>
+	<testcase
+		name="TestCase3_DataIteration_1"
+		time="1"
+		classname="jUnitTest.SmartFolder_RunIteration_1">
+		<error
+			message="The test case has errors."><![CDATA[---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording1 ---
+---[Warn] The following module variables are not bound to a data column:
+NewVariable---
+	[loglvl] Warn
+
+---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording1 ---
+---[Error] dg---
+	[itemindex] 1
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+	[codeline] 98
+	[loglvl] Error
+
+---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording3 ---
+---[Failure] ---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording3.cs
+	[codeline] 82
+	[loglvl] Failure
+
+---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording3 ---
+---[Error] The module has failed because one or more actions have failed.---
+	[loglvl] Error
+
+]]></error>
+		<system-err><![CDATA[---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording1 ---
+---[Warn] The following module variables are not bound to a data column:
+NewVariable---
+	[loglvl] Warn
+
+---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording1 ---
+---[Error] dg---
+	[itemindex] 1
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+	[codeline] 98
+	[loglvl] Error
+
+---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording3 ---
+---[Failure] ---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording3.cs
+	[codeline] 82
+	[loglvl] Failure
+
+---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording3 ---
+---[Error] The module has failed because one or more actions have failed.---
+	[loglvl] Error
+
+]]></system-err>
+		<system-out><![CDATA[---[Warn] The following module variables are not bound to a data column:
+NewVariable---
+----------------------------------------------------------------------------------------
+---[Info] Waiting for 500ms.---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+-------------------------------
+---[Info] Waiting for 500ms.---
+	[timeout] 500
+-------------------------------
+---[Error] dg---
+	[itemindex] 1
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+----------------
+---[Info] sdf---
+	[itemindex] 2
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+----------------
+---[Info] gfh---
+	[itemindex] 3
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+----------------
+---[Info] ghjsd---
+	[itemindex] 4
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+------------------
+---[Info] afafsd---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording4.cs
+-------------------
+---[Failure] ---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording3.cs
+----------------
+---[Error] The module has failed because one or more actions have failed.---
+----------------------------------------------------------------------------
+]]></system-out>
+	</testcase>
+	<testcase
+		name="TestCase3_DataIteration_2"
+		time="1"
+		classname="jUnitTest.SmartFolder_RunIteration_1">
+		<error
+			message="The test case has errors."><![CDATA[---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording1 ---
+---[Warn] The following module variables are not bound to a data column:
+NewVariable---
+	[loglvl] Warn
+
+---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording1 ---
+---[Error] dg---
+	[itemindex] 1
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+	[codeline] 98
+	[loglvl] Error
+
+---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording3 ---
+---[Failure] ---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording3.cs
+	[codeline] 82
+	[loglvl] Failure
+
+---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording3 ---
+---[Error] The module has failed because one or more actions have failed.---
+	[loglvl] Error
+
+]]></error>
+		<system-err><![CDATA[---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording1 ---
+---[Warn] The following module variables are not bound to a data column:
+NewVariable---
+	[loglvl] Warn
+
+---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording1 ---
+---[Error] dg---
+	[itemindex] 1
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+	[codeline] 98
+	[loglvl] Error
+
+---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording3 ---
+---[Failure] ---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording3.cs
+	[codeline] 82
+	[loglvl] Failure
+
+---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording3 ---
+---[Error] The module has failed because one or more actions have failed.---
+	[loglvl] Error
+
+]]></system-err>
+		<system-out><![CDATA[---[Warn] The following module variables are not bound to a data column:
+NewVariable---
+----------------------------------------------------------------------------------------
+---[Info] Waiting for 500ms.---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+-------------------------------
+---[Info] Waiting for 500ms.---
+	[timeout] 500
+-------------------------------
+---[Error] dg---
+	[itemindex] 1
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+----------------
+---[Info] sdf---
+	[itemindex] 2
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+----------------
+---[Info] gfh---
+	[itemindex] 3
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+----------------
+---[Info] ghjsd---
+	[itemindex] 4
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+------------------
+---[Info] afafsd---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording4.cs
+-------------------
+---[Failure] ---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording3.cs
+----------------
+---[Error] The module has failed because one or more actions have failed.---
+----------------------------------------------------------------------------
+]]></system-out>
+	</testcase>
+	<testcase
+		name="TestCase3_DataIteration_3"
+		time="1"
+		classname="jUnitTest.SmartFolder_RunIteration_1">
+		<error
+			message="The test case has errors."><![CDATA[---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording1 ---
+---[Warn] The following module variables are not bound to a data column:
+NewVariable---
+	[loglvl] Warn
+
+---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording1 ---
+---[Error] dg---
+	[itemindex] 1
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+	[codeline] 98
+	[loglvl] Error
+
+---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording3 ---
+---[Failure] ---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording3.cs
+	[codeline] 82
+	[loglvl] Failure
+
+---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording3 ---
+---[Error] The module has failed because one or more actions have failed.---
+	[loglvl] Error
+
+]]></error>
+		<system-err><![CDATA[---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording1 ---
+---[Warn] The following module variables are not bound to a data column:
+NewVariable---
+	[loglvl] Warn
+
+---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording1 ---
+---[Error] dg---
+	[itemindex] 1
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+	[codeline] 98
+	[loglvl] Error
+
+---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording3 ---
+---[Failure] ---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording3.cs
+	[codeline] 82
+	[loglvl] Failure
+
+---[Source] jUnitTest\SmartFolder\SmartFolder\TestCase3\TestCase3\Recording3 ---
+---[Error] The module has failed because one or more actions have failed.---
+	[loglvl] Error
+
+]]></system-err>
+		<system-out><![CDATA[---[Warn] The following module variables are not bound to a data column:
+NewVariable---
+----------------------------------------------------------------------------------------
+---[Info] Waiting for 500ms.---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+-------------------------------
+---[Info] Waiting for 500ms.---
+	[timeout] 500
+-------------------------------
+---[Error] dg---
+	[itemindex] 1
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+----------------
+---[Info] sdf---
+	[itemindex] 2
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+----------------
+---[Info] gfh---
+	[itemindex] 3
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+----------------
+---[Info] ghjsd---
+	[itemindex] 4
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording1.cs
+------------------
+---[Info] afafsd---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording4.cs
+-------------------
+---[Failure] ---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording3.cs
+----------------
+---[Error] The module has failed because one or more actions have failed.---
+----------------------------------------------------------------------------
+]]></system-out>
+	</testcase>
+	<testcase
+		name="TestCase5"
+		time="0"
+		classname="jUnitTest.SmartFolder_RunIteration_1">
+		<skipped
+			message="Skipped [Error Behavior: ContinueParent]." />
+	</testcase>
+	<testcase
+		name="TestCase6"
+		time="0"
+		classname="jUnitTest.SmartFolder_RunIteration_1">
+		<system-out><![CDATA[---[Info] afafsd---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording4.cs
+-------------------
+]]></system-out>
+	</testcase>
+	<testcase
+		name="TestCase3_DataIteration_1"
+		time="0"
+		classname="jUnitTest.SmartFolder_RunIteration_2">
+		<skipped
+			message="Skipped [Error Behavior: ContinueNextIteration]." />
+	</testcase>
+	<testcase
+		name="TestCase3_DataIteration_2"
+		time="0"
+		classname="jUnitTest.SmartFolder_RunIteration_2">
+		<skipped
+			message="Skipped [Error Behavior: ContinueNextIteration]." />
+	</testcase>
+	<testcase
+		name="TestCase3_DataIteration_3"
+		time="0"
+		classname="jUnitTest.SmartFolder_RunIteration_2">
+		<skipped
+			message="Skipped [Error Behavior: ContinueNextIteration]." />
+	</testcase>
+	<testcase
+		name="TestCase5"
+		time="0"
+		classname="jUnitTest.SmartFolder_RunIteration_2">
+		<skipped
+			message="Skipped [Error Behavior: ContinueParent]." />
+	</testcase>
+	<testcase
+		name="TestCase6"
+		time="0"
+		classname="jUnitTest.SmartFolder_RunIteration_2">
+		<skipped
+			message="Skipped [Error Behavior: ContinueParentIteration]." />
+	</testcase>
+	<testcase
+		name="TestCase61_DataIteration_1"
+		time="0"
+		classname="jUnitTest.SmartFolder1.SmartFolder2.TestCase61_RunIteration_1">
+		<system-out><![CDATA[---[Info] afafsd---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording4.cs
+-------------------
+]]></system-out>
+	</testcase>
+	<testcase
+		name="TestCase61_DataIteration_2"
+		time="0"
+		classname="jUnitTest.SmartFolder1.SmartFolder2.TestCase61_RunIteration_1">
+		<system-out><![CDATA[---[Info] afafsd---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording4.cs
+-------------------
+]]></system-out>
+	</testcase>
+	<testcase
+		name="TestCase61_DataIteration_3"
+		time="0"
+		classname="jUnitTest.SmartFolder1.SmartFolder2.TestCase61_RunIteration_1">
+		<system-out><![CDATA[---[Info] afafsd---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording4.cs
+-------------------
+]]></system-out>
+	</testcase>
+	<testcase
+		name="TestCase61_DataIteration_1"
+		time="0"
+		classname="jUnitTest.SmartFolder1.SmartFolder2.TestCase61_RunIteration_2">
+		<system-out><![CDATA[---[Info] afafsd---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording4.cs
+-------------------
+]]></system-out>
+	</testcase>
+	<testcase
+		name="TestCase61_DataIteration_2"
+		time="0"
+		classname="jUnitTest.SmartFolder1.SmartFolder2.TestCase61_RunIteration_2">
+		<system-out><![CDATA[---[Info] afafsd---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording4.cs
+-------------------
+]]></system-out>
+	</testcase>
+	<testcase
+		name="TestCase61_DataIteration_3"
+		time="0"
+		classname="jUnitTest.SmartFolder1.SmartFolder2.TestCase61_RunIteration_2">
+		<system-out><![CDATA[---[Info] afafsd---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording4.cs
+-------------------
+]]></system-out>
+	</testcase>
+	<testcase
+		name="TestCase4_RunIteration_1"
+		time="0"
+		classname="jUnitTest.SmartFolder3">
+		<system-out><![CDATA[---[Info] afafsd---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording4.cs
+-------------------
+---[Info] afafsd---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording4.cs
+-------------------
+]]></system-out>
+	</testcase>
+	<testcase
+		name="TestCase4_RunIteration_2"
+		time="0"
+		classname="jUnitTest.SmartFolder3">
+		<system-out><![CDATA[---[Info] afafsd---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording4.cs
+-------------------
+---[Info] afafsd---
+	[itemindex] 0
+	[codefile] C:\RxAutoTests\junit\jUnitTest\jUnitTest\Recording4.cs
+-------------------
+]]></system-out>
+	</testcase>
+</testsuite>
