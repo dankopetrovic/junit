@@ -10,7 +10,7 @@
     <AssemblyName>jUnitTest</AssemblyName>
     <RanorexVersion>8.0</RanorexVersion>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
-    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
     <projectdefaultrepository>f8145e93-b76a-40a0-aac4-4a67dff994ba</projectdefaultrepository>
     <StartAction>Project</StartAction>
   </PropertyGroup>
