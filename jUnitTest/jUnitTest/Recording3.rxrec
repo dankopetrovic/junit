@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5d306d4a-f52d-44e7-8c96-c1d58c48fa00"
+mode="Global"
+rxversion="8.0">
+	<name>
+		Recording3
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording3"
+	namespace="jUnitTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Failure;120"
+		searchpropertyid="36312772-2a8b-49fe-9d31-3eba99862efb">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="1a03969f-e89e-4f53-a3bb-a3e286772fcf"
+	name="jUnitTestRepository"
+	relativepath="jUnitTestRepository.rxrep"
+	rxversion="7.0">
+		<codegen
+		classname="jUnitTestRepository"
+		namespace="jUnitTest">
+		</codegen>
+		<rootfolder
+		id="1a1d8efe-adb1-42ae-81f8-fd3f5bdf9035"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording3.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

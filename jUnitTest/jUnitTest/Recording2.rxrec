@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="23f2bada-4422-4fb4-b500-ea1fd952530f"
+mode="Global"
+rxversion="8.0">
+	<name>
+		Recording2
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording2"
+	namespace="jUnitTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="khl"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="230d9e8e-33fa-4e32-b0a6-16c0ea928898">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+		<userrecorditem
+		classname="Recording2"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="Report_Log"
+		namespace="jUnitTest"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="95384146-6239-487b-91f2-88ed42c46075">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="1a03969f-e89e-4f53-a3bb-a3e286772fcf"
+	name="jUnitTestRepository"
+	relativepath="jUnitTestRepository.rxrep"
+	rxversion="7.0">
+		<codegen
+		classname="jUnitTestRepository"
+		namespace="jUnitTest">
+		</codegen>
+		<rootfolder
+		id="1a1d8efe-adb1-42ae-81f8-fd3f5bdf9035"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording2.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="80d59f40-f653-4a2e-8bab-01402ec83632"
+mode="Global"
+rxversion="8.0">
+	<name>
+		Recording4
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording4"
+	namespace="jUnitTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="afafsd"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="bd013a28-1cea-4fc3-bfa4-18413e2d303e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="1a03969f-e89e-4f53-a3bb-a3e286772fcf"
+	name="jUnitTestRepository"
+	relativepath="jUnitTestRepository.rxrep"
+	rxversion="7.0">
+		<codegen
+		classname="jUnitTestRepository"
+		namespace="jUnitTest">
+		</codegen>
+		<rootfolder
+		id="1a1d8efe-adb1-42ae-81f8-fd3f5bdf9035"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording4.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

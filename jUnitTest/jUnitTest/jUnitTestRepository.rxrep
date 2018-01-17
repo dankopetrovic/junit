@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+id="1a03969f-e89e-4f53-a3bb-a3e286772fcf"
+name="jUnitTestRepository"
+rxversion="8.0">
+	<codegen
+	classname="jUnitTestRepository"
+	namespace="jUnitTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="1a1d8efe-adb1-42ae-81f8-fd3f5bdf9035"
+	isrooted="True"
+	name="Root"
+	searchtimeout="30000ms"
+	usecache="True">
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
