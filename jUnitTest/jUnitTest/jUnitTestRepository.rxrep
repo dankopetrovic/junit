@@ -2,7 +2,7 @@
 <repository
 id="1a03969f-e89e-4f53-a3bb-a3e286772fcf"
 name="jUnitTestRepository"
-rxversion="8.0">
+rxversion="8.2">
 	<codegen
 	classname="jUnitTestRepository"
 	namespace="jUnitTest">
