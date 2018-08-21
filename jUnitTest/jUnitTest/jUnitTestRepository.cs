@@ -22,7 +22,7 @@ namespace jUnitTest
     /// <summary>
     /// The class representing the jUnitTestRepository element repository.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
     [RepositoryFolder("1a1d8efe-adb1-42ae-81f8-fd3f5bdf9035")]
     public partial class jUnitTestRepository : RepoGenBaseFolder
     {
@@ -65,7 +65,7 @@ namespace jUnitTest
     /// <summary>
     /// Inner folder classes.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
     public partial class jUnitTestRepositoryFolders
     {
     }
